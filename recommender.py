@@ -18,7 +18,7 @@ model = MatrixPreferenceDataModel(movies.data)
 #Build the similarity
 similarity = UserSimilarity(model, pearson_correlation)
 
-#Build the User based recommender
+#Build the User based recommender.py
 recommender = UserBasedRecommender(model, similarity, with_preference=True)
 
 #Recommend items for the user 5 (Toby)
