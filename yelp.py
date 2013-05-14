@@ -38,7 +38,7 @@ similarity = UserSimilarity(model, pearson_correlation)
 
 print 'Similarity built'
 
-#Build the User based recommender.py
+#Build the User based recommender_sample.py
 recommender = UserBasedRecommender(model, similarity, with_preference=True)
 
 print 'Recommender built'
